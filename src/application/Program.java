@@ -15,17 +15,14 @@ public class Program {
 		x = new Rectangle();
 
 		
-		System.out.println("Enter the measures of Rectangle: ");
+		System.out.println("Enter Rectangle width and height: ");
 		x.h = sc.nextDouble();
-		x.b = sc.nextDouble();
-		
-		double areaX = x.area();
-		double perimetroX = x.perimeter();
-		double diagonalX = x.diagonal();
-		
-		System.out.printf("Rectangle area: %.4f%n", areaX);
-		System.out.printf("Rectangle perimeter: %.4f%n", perimetroX);
-		System.out.printf("Rectangle perimeter: %.4f%n", diagonalX);
+		x.b = sc.nextDouble();		
+ 
+
+		System.out.printf("Area: %.2f%n", x.area());
+		System.out.printf("Perimeter: %.2f%n", x.perimeter());
+		System.out.printf("Diagonal: %.2f%n", x.diagonal());
 
 		sc.close();
 		

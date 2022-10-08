@@ -6,14 +6,13 @@ public class Rectangle {
 	public double b;
 	
 	public double area() {
-		double a =  b * h;
-		return a;
+		return b * h;
 	}
 	
 	
 	public double perimeter() {
-		double p =  2 * (b + h);
-		return p;
+		return  2 * (b + h);
+
 	}
 	
 	public double diagonal() {
