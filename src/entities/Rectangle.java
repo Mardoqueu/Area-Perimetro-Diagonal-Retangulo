@@ -11,9 +11,13 @@ public class Rectangle {
 	}
 	
 	
-	public double perimetro() {
+	public double perimeter() {
 		double p =  2 * (b + h);
 		return p;
+	}
+	
+	public double diagonal() {
+		return Math.sqrt(b * b + h * h);
 	}
 	
 }

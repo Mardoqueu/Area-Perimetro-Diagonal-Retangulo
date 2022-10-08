@@ -20,11 +20,13 @@ public class Program {
 		x.b = sc.nextDouble();
 		
 		double areaX = x.area();
-		double perimetroX = x.perimetro();
+		double perimetroX = x.perimeter();
+		double diagonalX = x.diagonal();
 		
 		System.out.printf("Rectangle area: %.4f%n", areaX);
 		System.out.printf("Rectangle perimeter: %.4f%n", perimetroX);
-		
+		System.out.printf("Rectangle perimeter: %.4f%n", diagonalX);
+
 		sc.close();
 		
 
