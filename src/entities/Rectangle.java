@@ -10,4 +10,10 @@ public class Rectangle {
 		return a;
 	}
 	
+	
+	public double perimetro() {
+		double p =  2 * (b + h);
+		return p;
+	}
+	
 }
